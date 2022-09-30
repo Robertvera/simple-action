@@ -2,6 +2,11 @@ name: 'Hello from Futurama'
 description: 'Saying hello to the world'
 author: 'Robert Vera'
 
+inputs:
+  character:
+    description: 'Futurama character'
+    default: 'bender'
+
 runs:
   using: 'node12'
   main: 'dist/index.js'

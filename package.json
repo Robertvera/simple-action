@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/Robertvera/simple-action#readme",
   "devDependencies": {
+    "@actions/core": "^1.10.0",
     "@zeit/ncc": "^0.22.3",
     "axios": "^0.27.2"
   }
