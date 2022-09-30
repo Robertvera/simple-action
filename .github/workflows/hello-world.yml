@@ -1,9 +1,9 @@
-name: Hello world
+name: Futurama greetings
 
 on: [push, pull_request]
 
 jobs:
-  hello-world:
+  futurama-greetings:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
